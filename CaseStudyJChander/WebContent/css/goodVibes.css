@@ -1,0 +1,126 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	
+}
+
+#my-landing-page{
+	position: relative;
+	width: 100vw;
+}
+
+#my-landing-page img{
+	width: 100%;
+	height: 100vh;
+}
+
+
+#my-landing-page #btn{
+	position: absolute;
+	top: 70%;
+	left: 48%;
+	border: none;
+	background-color: black;
+	color: white;
+	padding: 1em;
+}
+
+#my-login-form h1{
+	text-align: center;
+}
+
+/* #my-login-form button{
+	margin-bottom: 6.4em;
+} */
+
+#my-login-btn{
+	margin-bottom: 6.4em;
+}
+
+#my-register-form h1{
+	text-align: center;
+}
+
+#my-register-form button{
+	margin-top: 10px;
+	margin-bottom: 2em;
+}
+
+#my-about-page{
+	text-align: center;
+}
+
+#my-about-page h1, p{
+	margin-top: 1em;
+}
+
+#my-about-page p{
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#my-about-page #p{
+	margin-bottom: 2.5em;
+}
+
+#my-home-page{
+	background-color: pink;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#my-home-page h1{
+	margin-top: 5em;
+}
+
+#my-home-page h1{
+	margin-top: 5em;
+	margin-bottom: 0.25em; 
+}
+
+#my-home-page button{
+	margin-bottom: 9em;
+}
+
+/* #my-post-form h1{
+	text-align: center;
+} */
+
+/* #pf{
+	text-align: center;
+}
+
+#my-post-form button{
+	margin-top: 10px;
+	margin-bottom: 4.3em;
+} */
+
+#my-post-page{
+	/*border: 10px solid red;*/
+	text-align: center;
+	/*padding: 1em;*/
+}
+
+.my-post{
+	padding: 1em;
+	border: 1px solid red;
+	margin-bottom: 1em;
+}
+
+#my-footer{
+/* 	position: absolute;
+ 	bottom: 0; */
+	width: 100vw;
+	color: white;
+	text-align: center;
+	background: black;
+	padding: 1em;
+}
