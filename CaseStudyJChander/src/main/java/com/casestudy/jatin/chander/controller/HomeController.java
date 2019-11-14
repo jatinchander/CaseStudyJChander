@@ -33,7 +33,13 @@ public class HomeController {
 	
 	@RequestMapping(value = "/contact", method = RequestMethod.GET)
 	public ModelAndView getContact() {
-		ModelAndView mav = new ModelAndView("conatct");
+		ModelAndView mav = new ModelAndView("contact");
+		return mav;
+	}
+	
+	@RequestMapping(value = "/saveContactForm", method = RequestMethod.POST)
+	public ModelAndView getContactConfrimation() {
+		ModelAndView mav = new ModelAndView("contactConfirmation");
 		return mav;
 	}
 	

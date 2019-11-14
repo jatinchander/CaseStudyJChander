@@ -98,8 +98,12 @@
 				<a href="${pageContext.request.contextPath}/comingsoon">
 					<button type="button" class="btn btn-success">Edit Post</button>
 				</a>
+				<a href="${pageContext.request.contextPath}/comingsoon">
 				<button type="button" class="btn btn-danger">Delete Post</button>
+				</a>
+				<a href="${pageContext.request.contextPath}/comingsoon">
 				<button type="button" class="btn btn-primary">Comment</button>
+				</a>
 			</div>
 		</div>
 		<%-- 			<tr>
